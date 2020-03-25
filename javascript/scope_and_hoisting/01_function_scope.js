@@ -43,6 +43,12 @@ function func2() {
 }
 func1();
 
+var forA = 10;
+for (let forA = 0; forA < 5; forA++) {
+  console.log(forA); // 0 1 2 3 4
+}
+console.log(forA); // 10
+
 // lexical scope Error
 // function errFunc1() {
 //   var a = 10;
